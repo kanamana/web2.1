@@ -1,4 +1,5 @@
-#task 1.8 [12]
+sudo pip3 install --upgrade django
+
 sudo ln -sf /home/box/web/etc/nginx.conf /etc/nginx/sites-enabled/default
 sudo /etc/init.d/nginx restart
 
