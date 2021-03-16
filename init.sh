@@ -1,4 +1,6 @@
-sudo pip install -r /home/box/web/requirements.txt 
+sudo pip install --upgrade django
+sudo pip install --upgrade gunicorn
+#sudo pip install -r /home/box/web/requirements.txt 
 #sudo pip3 install --upgrade django
 
 sudo ln -sf /home/box/web/etc/nginx.conf /etc/nginx/sites-enabled/default
